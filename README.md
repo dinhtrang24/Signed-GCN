@@ -14,7 +14,7 @@ Create folder to save results
 ```
 mkdir job_id{1..25}
 ```
-We have 25 files of results which correspond to 25 combinations of within and between degree for each scenario. We generate between and within-community edges varying in ${1, 3, 6, 12, 24}$ . For example, job_id1 corresponds to the case when within degree = 1 and between degree =1; $\dots$, job_id25 corresponds to the case when within degree = 24 and between degree =24.
+We have 25 files of results which correspond to 25 combinations of within and between degree for each scenario. We generate between and within-community edges varying in ${1, 3, 6, 12, 24}$ . For example, job_id1 corresponds to the case when within degree = 1 and between degree =1; $\dots$; job_id25 corresponds to the case when within degree = 24 and between degree =24.
 
 If we want to obtain the result for the case when within degree = 1 and between degree =1, we implement:
 
