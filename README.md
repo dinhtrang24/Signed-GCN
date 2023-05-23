@@ -25,7 +25,7 @@ The above eleven parameters correspond to:
 - unique number of random seeds (here we have 30 random seeds in total corresponding to 30 splits)
 - number of runs in each split
 - training set percentage
-- validation set percentage (the remaining is tet set)
+- validation set percentage (the remaining is test set)
 - negative link noise percentage
 - positive link noise percentage
 - within degree of Group 1
@@ -44,7 +44,7 @@ For Cora data, if we want to obtain the result for the case when there is no edg
 python real_network.py 1 1 0 0 0
 ```
 The above five parameters correspond to:
-- unique number of random seeds corresponding to different weight initializations
+- unique number of random seeds corresponding to different weight initializations (here we have 30 different weight initializations in total)
 - number of runs
 - negative link noise percentage
 - positive link noise percentage
